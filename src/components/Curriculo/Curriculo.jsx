@@ -15,11 +15,11 @@ function Curriculo(props) {
             <h3>Resumo</h3>
             <p>{resumo}</p>
          </section>
-
+          console.log({experienciaAcademica})
           <section>
                 <h3>Acadêmico</h3>
                 <ul>           
-                {experienciaAcademica.map((item, index) => (
+                {experienciaAcademica?.map((item, index) => (
                  <li key={index}> 
                  <b>({item.anoInicio} - {item.anoFim})</b> {item.titulo} 
                 
@@ -31,7 +31,7 @@ function Curriculo(props) {
          <section>
             <h3>Profissional</h3>
             <ul>
-            {experienciaProfissional.map((item, index) => (
+            {experienciaProfissional?.map((item, index) => (
                  <li key={index}> 
                  <b>({item.anoInicio} - {item.anoFim})</b> {item.titulo}
                  </li>
