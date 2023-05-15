@@ -15,7 +15,7 @@ function Curriculo(props) {
             <h3>Resumo</h3>
             <p>{resumo}</p>
          </section>
-          console.log({experienciaAcademica})
+         
           <section>
                 <h3>Acadêmico</h3>
                 <ul>           
