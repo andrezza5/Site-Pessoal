@@ -16,7 +16,7 @@ function Curriculo(props) {
             <p>{resumo}</p>
          </section>
 
-         {/*<section>
+         <section>
                 <h3>Acadêmico</h3>
                 <ul>           
                 {experienciaAcademica.map((item, index) => (
@@ -36,7 +36,7 @@ function Curriculo(props) {
                  </li>
                  ))}
                 </ul>
-            </section>*/}
+            </section>
             
               
             </main>
