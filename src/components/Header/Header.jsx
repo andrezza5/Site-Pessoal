@@ -1,15 +1,17 @@
 import React from "react";
-import andrezza from "../../assets/img/andrezza.jpg";
 import "./Header.css";
 
 
-function Header() {
+function Header(props) {
+
+const { nome, cargo, foto} = props.informacoes
+
     return <header>
     <div className="center">        
-    <img src={andrezza} alt="Foto de Andrezza"/>
+    <img src={foto} alt="Foto de Andrezza"/>
     </div>
-    <h1>Andrezza Marcilio</h1>
-    <h2>Desenvolvedora de Software</h2>
+    <h1>{nome}</h1>
+    <h2>{cargo}</h2>
     </header>
 }
 
