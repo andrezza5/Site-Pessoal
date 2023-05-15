@@ -11,3 +11,10 @@
     font-weight: bold;
     color: #1B4F72; 
    }
+
+   .item-portfolio img {    
+        max-width:200px;
+        max-height:150px;
+        width: auto;
+        height: auto;    
+   }
