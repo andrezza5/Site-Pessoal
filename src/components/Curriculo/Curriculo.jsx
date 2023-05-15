@@ -25,7 +25,7 @@ function Curriculo(props) {
                  </li>
                  ))}
                 </ul>
-            </section>*/}
+            </section>
             
          <section>
             <h3>Profissional</h3>
@@ -36,7 +36,7 @@ function Curriculo(props) {
                  </li>
                  ))}
                 </ul>
-            </section>
+            </section>*/}
             
               
             </main>
