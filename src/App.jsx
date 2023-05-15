@@ -49,7 +49,7 @@ function App() {
 
   return (   
     <>
- <Header informacoes={informacoes}></Header> 
+ <Header informacoes={informacoes} />
 <BrowserRouter>
 <Navbar></Navbar>
 
