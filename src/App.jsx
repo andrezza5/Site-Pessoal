@@ -49,13 +49,9 @@ function App() {
 
   return (   
     <>
- <Header></Header>
-
- 
+ <Header informacoes={informacoes}></Header> 
 <BrowserRouter>
-
 <Navbar></Navbar>
-
 
       <Routes>        
           <Route index element={<Curriculo curriculo={curriculo} />} />
